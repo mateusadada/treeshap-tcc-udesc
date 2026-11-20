@@ -1,0 +1,6 @@
+Classe_TCC,Amostras_Originais,Ruido_Removido,Amostras_Finais,Perc_Escopo (%)
+Benign,2273097,1777,2271320,88.31
+PortScan,158930,126,158804,6.17
+DDoS,128027,2,128025,4.98
+Brute Force,13835,3,13832,0.54
+TOTAL (Escopo TCC),2573889,1908,2571981,100.0

@@ -1,0 +1,3 @@
+Combinacao_Conflito,Grupos_X_Afetados,Total_Registros_Afetados,Registros_Minoritarios,Regs_Benign,Regs_DDoS,Regs_PortScan,Regs_Brute Force
+Benign vs. PortScan,564,1618,564,565,0,1053,0
+Benign vs. DDoS,3,9,3,3,6,0,0

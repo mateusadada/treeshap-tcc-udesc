@@ -1,0 +1,5 @@
+,Pred_Benign,Pred_DDoS,Pred_PortScan,Pred_Brute Force
+Real_Benign,2270313,31,962,14
+Real_DDoS,37,127988,0,0
+Real_PortScan,1152,1,157650,1
+Real_Brute Force,10,0,0,13822

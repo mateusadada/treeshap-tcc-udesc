@@ -1,0 +1,23 @@
+# Ambiente virtual e caches Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Arquivos brutos e processados do CICIDS2017 (baixados localmente)
+dados/*.csv
+dados/**/*.csv
+dados/processados/*.parquet
+
+# Modelos treinados e amostras pesadas (gerados localmente ou via Releases)
+modelos/*.joblib
+modelos/*.parquet
+
+# Saídas temporárias da demonstração
+exemplo/saida_demo_*.png
+
+# Metadados de sistema operacional (Windows/WSL2 e macOS)
+*:Zone.Identifier
+.DS_Store
+Thumbs.db

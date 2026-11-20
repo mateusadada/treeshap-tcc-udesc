@@ -1,0 +1,12 @@
+Metrica,Float64 (Parquet),Float32 (Arvores),Diferenca
+Total_Registros,2571981,2571981,0
+Total_Grupos_X_Distintos,2322348,2299545,-22803
+Grupos_Estritamente_Unicos,2228492,2200651,-27841
+Registros_Estritamente_Unicos,2228492,2200651,-27841
+Grupos_Duplicatas_Puras,93289,98327,5038
+Registros_Em_Duplicatas_Puras,341862,369703,27841
+Copias_Excedentes_Puras,248573,271376,22803
+Grupos_Com_Conflito_Rotulo,567,567,0
+Registros_Em_Grupos_Conflitantes,1627,1627,0
+Registros_Majoritarios_No_Conflito,1060,1060,0
+Registros_Minoritarios_Discordantes,567,567,0

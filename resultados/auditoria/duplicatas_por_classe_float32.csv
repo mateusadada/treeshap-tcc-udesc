@@ -1,0 +1,5 @@
+Classe,Total_Limpo,Unicos_Estritos,Grupos_Dup_Pura,Regs_Em_Dup_Pura,Copias_Excedentes_Puras,Regs_Em_Conflito_Rotulo,Padroes_Distintos_(X_Label),Taxa_Redundancia (%)
+Benign,2271320,2007098,64589,263654,199065,568,2072254,8.76
+DDoS,128025,128003,8,16,8,6,128014,0.01
+PortScan,158804,56999,33131,100752,67621,1053,90694,42.89
+Brute Force,13832,8551,599,5281,4682,0,9150,33.85
