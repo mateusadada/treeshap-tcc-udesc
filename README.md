@@ -1,4 +1,4 @@
-# Detecção de DDoS, Port Scan e Brute Force com Machine Learning e TreeSHAP
+# Detecção De DDoS, Port Scan e Brute Force em Redes de Computadores com Machine Learning: Uma Abordagem Interpretável via SHAP
 
 **Português** | [**English**](README.en.md)
 
