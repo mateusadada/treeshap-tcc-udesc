@@ -1,6 +1,6 @@
 # Detecção de DDoS, Port Scan e Brute Force com Machine Learning e TreeSHAP
 
-[Português](README.md) | [English](README.en.md)
+**Português** | [**English**](README.en.md)
 
 Repositório oficial do Trabalho de Conclusão de Curso (TCC) do Bacharelado em Sistemas de Informação da **Universidade do Estado de Santa Catarina (UDESC — CEPLAN)**.
 
