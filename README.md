@@ -56,7 +56,7 @@ O experimento organiza-se em quatro scripts principais (executados em sequência
 2. **Auditoria dos dados (`02_auditoria_dados.py`):** identifica colunas constantes (8), pares numericamente idênticos, proporção de registros duplicados em `float64` vs. `float32` (10,55% de cópias excedentes puras em `float32`) e grupos com rótulos conflitantes (567 grupos; 1.627 linhas).
 3. **Treinamento e avaliação (`03_treinamento_avaliacao.py`):** avalia DT e RF em validação cruzada de 10 partições sob três cenários:
    - *Baseline* com todos os 77 atributos (`StratifiedKFold`);
-   - Seleção via **MDI** ($\ge 99\%$ da importância acumulada) executada **exclusivamente no conjunto de treino de cada partição** (`StratifiedKFold`), retendo média de **52,8 atributos** e eliminando vazamento de dados;
+   - Seleção via **MDI** (99% da importância acumulada) executada **exclusivamente no conjunto de treino de cada partição** (`StratifiedKFold`), retendo média de **52,8 atributos** e eliminando vazamento de dados;
    - Avaliação complementar com `StratifiedGroupKFold`, impedindo que vetores de atributos idênticos apareçam simultaneamente no treino e no teste (média de **52,5 atributos**).
 4. **Explicabilidade com TreeSHAP (`04_explicabilidade_shap.py`):** aplica o `TreeExplainer` sobre os modelos do Fold 10 na mesma subamostra balanceada de **1.200 fluxos de teste** (300 por classe), verifica a aditividade local nos 54 atributos e analisa 4 estudos de caso (3 acertos + 1 falso negativo de `PortScan`).
 
@@ -103,7 +103,7 @@ treeshap-tcc-udesc/
 │   ├── auditoria/                     # CSVs de limpeza, duplicatas e conflitos
 │   ├── metricas/                      # CSVs de métricas, histórico MDI e matrizes de confusão
 │   ├── shap/                          # CSVs de ranking global SHAP e estudos de caso locais
-│   └── figuras/                       # Gráficos finais do TCC (300–400 DPI)
+│   └── figuras/                       # Gráficos finais do TCC
 ├── modelos/                           # Destino local para .joblib e amostras Parquet (fora do Git)
 └── exemplo/
     ├── README.md                      # Demonstração estática (Brute Force + Erro PortScan)
